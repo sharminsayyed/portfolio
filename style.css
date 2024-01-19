@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.first
+{
+    height:100vh;
+    width:100%;
+    background: url("pic.jpg") no-repeat center center/cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#CB64C3;
+
+}
+
+.first h1{
+    
+    font-size:6vw;
+    font-weight:700;
+    font-family:"Sacramento", cursive;
+    text-shadow:2px 2px 10px #CB64C3;
+}
+
+.first p{
+    font-size:3vw;
+
+}
+.first span{
+    text-decoration: underline;
+}
+
+@media (max-width:700px){}
+
+/* helloo */
+.second
+{
+    height:80vh;
+    width:100vw;
+    /* background-color:#FDCFFF ; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second img{
+    border-radius: 50%;
+    
+}
+.second h2{
+    padding:2vw 0;
+    font-size:2.5vw;
+    font-weight:700;
+    color:#CB64C3;
+    /* font-family:"Sacramento", cursive; */
+    font-family:"Montserrat", sans-serif;
+}
+
+.second p{
+    text-align: center;
+    font-size:1.5vw;
+    /* font-family:"Montserrat", sans-serif; */
+}
+
+hr{
+    /* border:1rem single-dotted black; */
+    border-top: 6px dotted #CE6AC5;
+    width:7vw;
+    margin:auto;
+}
+
+/* my skills */
+.third{
+    height:100vh;
+    width:100vw;
+    /* background-color:#FDCFFF ; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third .heading{
+    padding-top:1vw ;
+    font-size:2.5vw;
+    font-weight:700;
+    color:#CB64C3;
+    /* font-family:"Sacramento", cursive; */
+    font-family:"Montserrat", sans-serif;
+}
+
+.skill1{
+    height:40vh;
+    width:60vw;
+    margin-top:40px;
+    background-color: #E492EC;
+    border-radius:20px;
+    box-shadow: 0 0 20px purple;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.design{
+    height:100%;
+    width:35vw;
+}
+.design h2{
+    font-size: 2vw;;
+    color:white;
+    padding:38px 30px 0 30px;
+    font-family:"Montserrat", sans-serif;
+    font-weight: 700;   
+}
+.design p{
+    font-size:1.3vw;
+    padding:20px 30px 30px 30px;
+    color:white;
+}
+
+/* get in touch */
+
+.fourth{
+    height:50vh;
+    width:100vw;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.fourth h1{
+    font-size:2.5vw;
+    color:#CB64C3;
+    /* font-weight:700; */
+    font-family:"Montserrat", sans-serif;    
+}
+
+.fourth p{
+    font-size:1.5vw;
+}
+
+.fourth button{
+    padding:10px 30px;
+    font-size:15px;
+    font-weight: 700;
+    font-family:"Montserrat", sans-serif;    
+    border-radius:10px;
+    border:none;
+    background-color:#BC56C6;
+    color:white;
+}
+
+.fourth button:hover{
+    background-color:purple;
+    cursor: pointer;
+}
+
+/* footer */
+.five {
+    height:20vh;
+    width: 100vw;
+    background-color: #BC56C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.five a{
+    text-decoration: none;
+    margin-left:1vw;
+    color:purple;
+    font-size: 1.2vw;
+}
+
+.five a:hover{
+    color:white;
+}
+
+.five p{
+    color:white;
+}
